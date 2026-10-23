@@ -1,0 +1,147 @@
+(footprint "SHV_Relay"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7d0f978a-0df5-4cbe-97d0-f3c865b937a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SHV Series Relay"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4de52ac6-2c16-4050-9b3d-502418589d04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://standexdetect.com/wp-content/uploads/sites/2/2025/09/datasheet-reed-relay-series-shv.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5be1422-e5b2-4409-8525-f8146b44a1f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SHV Series Reed Relays"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c50f2790-f241-42ee-b11a-f57b407520fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -12.065 -3.11)
+		(end 12.065 3.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb1b1ef5-c369-4db8-b45d-0c80e3badfc6")
+	)
+	(fp_circle
+		(center -10.2 -4)
+		(end -10.7 -4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e0b969ef-5da4-4d18-9109-fa42319064bc")
+	)
+	(fp_rect
+		(start -12.5 -3.5)
+		(end 12.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9aecc066-7514-4a9c-8a81-7141e6311ecf")
+	)
+	(fp_rect
+		(start -12.75 -3.75)
+		(end 12.75 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d5aeae93-abb4-4c2c-a71a-ba7a8e06da38")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "16275ee9-2212-4e29-af01-b4321fe1f9a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "13" thru_hole circle
+		(at -10.16 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2951ceb-76a2-4ec8-b0d0-c9f4797f9661")
+	)
+	(pad "14" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37a0a96c-0c47-4466-904d-3b40e2d71c7f")
+	)
+	(pad "A1" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "300b6d2c-7fe0-4880-85a9-62a060bd76ce")
+	)
+	(pad "A2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6be044d4-68a9-4725-843f-e63b313251cc")
+	)
+	(embedded_fonts no)
+)

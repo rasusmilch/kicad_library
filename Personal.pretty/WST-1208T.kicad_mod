@@ -1,0 +1,132 @@
+(footprint "WST-1208T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.985 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8022d88-5cef-4514-a13e-754e7453d32d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WST-1208T"
+		(at 0 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55a10383-6b4f-4b3c-be78-d59236c33215")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.soberton.com/wp-content/uploads/2022/03/WST-1208T.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56d7fb19-e347-41b9-accb-e9c0a0f3cae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzers Indicator, Internally Driven Magnetic 3 V 30mA 2.7kHz 85dB @ 3V, 10cm Through Hole PC Pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6b38d2-2ea8-4949-bfa6-0462d17d71b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "69877a82-22e7-46f8-aa38-0cfa04e66e07")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.985)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "66bde3ef-af91-46a3-80c5-745f5c60a66c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4cfaab53-e905-45b0-a2fa-780fcb5fce62")
+	)
+	(fp_text user "+"
+		(at -2.54 -3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5ec2725-ec30-48ef-94ac-627a7f892043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "65b03298-da01-4b88-9f97-dc6bd28e158c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -3.8)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "5ce7bc6f-8539-477f-8da5-5a97315b7865")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.8)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43bda80b-2a45-41c5-b98a-e4961ae57d72")
+	)
+	(embedded_fonts no)
+)

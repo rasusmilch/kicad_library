@@ -1,0 +1,77 @@
+(footprint "10mm_Magnet"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0fcae151-38e8-4e36-a83c-42fb9ef327c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10mm Magnet"
+		(at 0 -8.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71de6271-1517-427a-a0f3-7f050a91f908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d4ba60d-6a40-4f11-8ec9-e3f46f655646")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10mm Magnet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4c49c7e-ac70-484d-b260-22c9dcb3eb58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7652802-b923-4281-a320-49ec47c48463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 12 12)
+		(drill 12)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 2)
+		(uuid "9793eba8-b215-4a99-b60d-ae6b21aaacb1")
+	)
+	(embedded_fonts no)
+)
