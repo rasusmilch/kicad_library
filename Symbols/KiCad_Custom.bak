@@ -1345,7 +1345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm_ThermalVias"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1356,7 +1356,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac43608.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1367,7 +1367,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 Bit Digital to Analog Converter 8 16-WQFN (3x3)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
