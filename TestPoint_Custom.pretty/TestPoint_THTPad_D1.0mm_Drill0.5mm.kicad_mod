@@ -6,12 +6,12 @@
 	(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 	(tags "test point THT pad")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
-		(uuid "4e38932b-eb8d-42a1-bf6a-e0b6fd21674f")
+		(uuid "a9b51e12-9c22-4adc-9cb7-74b3733934da")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -19,7 +19,8 @@
 	(property "Value" "TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(at 0 1.55 0)
 		(layer "F.Fab")
-		(uuid "e1e54b65-b0a7-453a-a172-bf9ee38af1c5")
+		(hide yes)
+		(uuid "bada9844-e1db-4316-92b4-cddfdb2b17ab")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cb571302-8ea0-44b3-a66b-addbe0572557")
+		(uuid "04bf8356-64f0-419c-88bc-29fec56c7602")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ec036911-5755-4823-8518-77e8b017294b")
+		(uuid "fb245b4f-b98a-4f4a-bb4a-a3f5ee656e7a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "544ef127-441a-48f6-bfce-aa15cbd0a042")
+		(uuid "7b90c59b-661c-4909-b97a-ac2b62273e84")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,16 +76,30 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0d3fd0c4-b726-48f7-abf9-ba0ecfbc4d95")
+		(uuid "5bc1f5c6-61b8-4733-a83c-b8311ddd4bcc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -1.45 0)
-		(layer "F.Fab")
-		(uuid "d2dd388d-0e61-403b-9317-8b9d890a3814")
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c5d45314-67ad-4c4f-9228-8e9da353b8ac")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "716242e5-c4fe-45a4-a43f-8b978dbf1265")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
@@ -92,10 +107,10 @@
 		(at 0 0)
 		(size 1 1)
 		(drill 0.5)
+		(property pad_prop_testpoint)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(property pad_prop_testpoint)
-		(uuid "8e467c9f-6e54-4e17-913d-8a170d878962")
+		(uuid "760e08b6-1ae8-4cfb-b182-b046721ad709")
 	)
 	(embedded_fonts no)
 )
