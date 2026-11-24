@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.4 0)
 		(layer "F.SilkS")
-		(uuid "a9b51e12-9c22-4adc-9cb7-74b3733934da")
+		(uuid "cc79eaff-e60f-4194-a522-0cbccf06b96e")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -20,7 +20,7 @@
 		(at 0 1.55 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bada9844-e1db-4316-92b4-cddfdb2b17ab")
+		(uuid "76e45f1a-cd3b-4f61-86c0-c4052e5c2322")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "04bf8356-64f0-419c-88bc-29fec56c7602")
+		(uuid "147e9a66-eaa7-472c-88d5-04cd219d9d80")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb245b4f-b98a-4f4a-bb4a-a3f5ee656e7a")
+		(uuid "06dadd4b-e7fa-4df1-b251-8dbdfeed2c0b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,31 +58,42 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
-		(end 0 0.7)
+		(end 0.7 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7b90c59b-661c-4909-b97a-ac2b62273e84")
+		(uuid "534f7b27-49ae-483e-9815-53d5f6a504f9")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 1 0)
+		(end 0.8 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5bc1f5c6-61b8-4733-a83c-b8311ddd4bcc")
+		(uuid "94ef334b-8610-46c2-8210-21e2823fdf1f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "605c11db-3fd9-4798-99c4-ec012e7c6116")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -1.4 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "c5d45314-67ad-4c4f-9228-8e9da353b8ac")
+		(uuid "e77dbb87-7eb6-4d72-9c86-7e42c2de79dc")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -94,7 +105,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "716242e5-c4fe-45a4-a43f-8b978dbf1265")
+		(uuid "6b666840-5baa-410d-af44-5f90df8e395c")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -110,7 +121,7 @@
 		(property pad_prop_testpoint)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "760e08b6-1ae8-4cfb-b182-b046721ad709")
+		(uuid "f6029a5f-889f-4cdf-8186-1bdb3a3ae861")
 	)
 	(embedded_fonts no)
 )
